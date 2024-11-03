@@ -1,6 +1,6 @@
 from PIL import Image
 
-def compress_image(input_path, output_path, target_size_mb=0.5):
+def compress_image(input_path, output_path, target_size_mb=1):
     target_size_bytes = target_size_mb * 1024 * 1024  # 將 MB 換算成 Bytes
     quality = 95  # 初始壓縮品質設定
     
